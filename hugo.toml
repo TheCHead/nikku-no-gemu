@@ -47,7 +47,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "nikku no gēmu"
-      logoHomeLink = "/"
+      logoHomeLink = "https://thechead.github.io/nikku-no-gemu/"
     # or
     #
     # path = "/img/your-example-logo.svg"
