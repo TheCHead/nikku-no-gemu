@@ -23,14 +23,14 @@ Additionally, it served as an excellent exercise in fine-tuning the balance betw
 
 Project's [github](https://github.com/TheCHead/RPG-Study-Project) page.
 
-{{< figure src="/img/study/rpg_0.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
+{{< figure src="img/study/rpg_0.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
 
-{{< figure src="/img/study/rpg_1.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
+{{< figure src="img/study/rpg_1.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
 
-{{< figure src="/img/study/rpg_2.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
+{{< figure src="img/study/rpg_2.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
 
-{{< figure src="/img/study/rpg_3.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
+{{< figure src="img/study/rpg_3.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
 
-{{< figure src="/img/study/rpg_4.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
+{{< figure src="img/study/rpg_4.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
 
-{{< figure src="/img/study/rpg_5.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}
+{{< figure src="img/study/rpg_5.gif" alt="RPG Study" position="center" style="border-radius: 8px;" >}}

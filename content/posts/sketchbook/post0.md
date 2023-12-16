@@ -10,10 +10,10 @@ tags = ['sketch']
 This is Post 0.
 
 
-{{< figure src="/img/icon.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="right" captionStyle="color: red;" >}}
+{{< figure src="img/icon.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="right" captionStyle="color: red;" >}}
 
 ![my image][def]
 
 {{< youtube w7Ft2ymGmfc >}}
 
-[def]: /img/hurt.gif
+[def]: img/hurt.gif
