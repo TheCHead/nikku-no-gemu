@@ -29,7 +29,7 @@ In addition to crafting homework mini-games, we ventured into experimenting with
 
 {{< figure src="img/skyeng/droplet.gif" alt="Droplet state" position="center" style="border-radius: 8px;" >}}
 
-{{< figure src="img/skyeng/klpapp.gif" alt="Get the Crown" position="center" style="border-radius: 8px;" >}}
+{{< figure src="img/skyeng/klpapp.gif" alt="Dreamlands" position="center" style="border-radius: 8px;" >}}
 
 {{< figure src="img/skyeng/mp_chat.gif" alt="Multiplayer Chat Study" position="center" style="border-radius: 8px;" >}}
 
