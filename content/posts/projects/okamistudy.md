@@ -8,7 +8,7 @@ description = "Recreation of Okami's core gameplay mechanic."
 cover = 'img/study/okami_640.gif'
 +++
 
-Developed by Clover Studio and directed by legendary Hideki Kamiya, Okami is among my favorite action adventure games ever, brimming with creative ideas that never cease to amaze.
+Developed by Clover Studio and directed by legendary Hideki Kamiya, Okami is among my favorite action adventure games ever, it's brilliant.
 
 And upon discovering this [Mix and Jam Youtube video](https://www.youtube.com/watch?v=yuQXeaYBuuM), recreating Okami's brush mechanic, I got inspired to try and do so myself as well. 
 By the way, [Mix and Jam channel](https://www.youtube.com/@mixandjam) is fantastic, full of really impressive gameplay recreations.

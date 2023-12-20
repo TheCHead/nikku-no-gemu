@@ -10,7 +10,7 @@ cover = 'img/study/rpg_5.gif'
 
 Another project I've built with [GameDev.tv](https://www.gamedev.tv), but this time of a much larger scope.
 
-This endeavor introduced me to a myriad of new Unity and C# techniques, as I've taken on the following topics:
+This endeavor introduced me to a stack of new Unity and C# techniques, as I've taken on the following topics:
  - melee and range combat
  - pathfinding and patrol paths for enemies
  - player level progression

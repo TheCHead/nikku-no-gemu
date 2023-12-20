@@ -9,9 +9,9 @@ cover = 'img/study/block_breaker.gif'
 +++
 
 
-I delved into Unity back in 2019 with the guidance of [GameDev.tv](https://www.gamedev.tv), and I wholeheartedly recommend them to anyone embarking on their game development journey.
+I delved into Unity back in 2019 with the guidance of [GameDev.tv](https://www.gamedev.tv), and I 100% recommend them to anyone embarking on their game development journey.
 
-Their lessons played a massive role in helping me understand the ins and outs of the Unity toolkit, opening up opportunities for some creative game and level design shenanigans. Beyond the valuable knowledge gained, the experience was incredibly enjoyable and served as a powerful motivator to persist and continue learning!
+Their lessons played a massive role in helping me understand the ins and outs of the Unity toolkit, also providing a room for some game and level design shenanigans. The whole experience was really enjoyable and served as a powerful motivator to persist and continue learning!
 
 So, here's a bunch of goofy little projects that I've crafted during this period, presented in no particular order.
 
