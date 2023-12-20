@@ -10,7 +10,7 @@ cover = 'img/gamejam/eve_0.png'
 
 {{< figure src="img/gamejam/eve_1.png" alt="Super Eden Jumper" position="center" style="border-radius: 8px;" caption="Climb the Tree of Knowledge as Eve, to bite the Serpent's butt off!" captionPosition="center" >}}
 
- ...The theme of my first ever Game Jam was "Heaven" and somehow this is what we came up with. Despite a slow start in the first 24 hours grappling with ideas, we pulled it off in the next 24. Our trio team consisted of a game designer, an artist, and myself as a developer.
+ ...The theme of my first ever Game Jam was "Heaven" and somehow this is what we came up with. Despite a slow start in the first 24 hours grappling with ideas, we managed to complete it in the next 24. Our trio team consisted of a game designer, an artist, and myself as a developer.
 
  The result game draws inspiration from titles like Jump King and Get Over It, as players navigate a dynamic environment while dodging projectile apples from the Serpent, at a constant risk of falling down and starting all over again. 
 

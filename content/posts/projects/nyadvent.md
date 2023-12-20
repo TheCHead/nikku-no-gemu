@@ -4,7 +4,7 @@ date = 2023-12-18T18:52:46+04:00
 draft = false
 categories = ['Projects']
 tags = ['skyeng', 'unity']
-description = "It's the gaming season!"
+description = "It's gaming season!"
 cover = 'img/skyeng/advent1_new.gif'
 +++
 

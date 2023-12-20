@@ -4,7 +4,7 @@ date = 2023-12-19T12:32:53+04:00
 draft = false
 categories = ['Sketchbook']
 tags = ['sketch']
-cover = 'img/sketchbook/handgesture.png'
+cover = 'img/sketchbook/lighthouse_fin.png'
 +++
 
 {{< figure src="img/sketchbook/lighthouse_fin.png" alt="Lighthouse" position="center" style="border-radius: 8px;" >}}
