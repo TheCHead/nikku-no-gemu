@@ -1,21 +1,17 @@
 +++
-title = "About"
-date = "2019-01-25"
-author = "Radek"
+title = "About Me"
+enableEmoji = true
 +++
 
-# Hi there
+#### Welcome, weary traveller, to my site!
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
+My name is Nick &#x1f44b;
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+I'm a game developer and this is a space for me to share my experience, projects, and to gush about video games in general.
 
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+{{< figure src="img/me0.JPG" position="center" style="border-radius: 8px;" >}}
 
-The theme includes:
 
-- **light/dark mode**, depending on your preferences
-- great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
-- nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
-
-So, there you have it... enjoy!
+[My Resumé]({{< static "/docs/nikitadmitrievCV.pdf" >}})  
+[My LinkedIn](https://www.linkedin.com/in/dmitriev-nikita-tch/)  
+[My Github](https://github.com/TheCHead)
