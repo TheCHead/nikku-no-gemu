@@ -8,7 +8,7 @@ description = "Educational sandbox dollhouse."
 cover = 'img/skyeng/algalaxy1.gif'
 +++
 
-Al Galaxy was designed as a sandbox for kids, offering a playful environment with charming characters while providing educational value. Collaborating closely with children and methodists during the design process, we aimed to seamlessly integrate educational elements into the gameplay and to not ruin the fun in the process.
+Al Galaxy was designed as a sandbox for kids, offering a playful environment with charming characters while providing educational value. Collaborating closely with children and methodists during the design process, we aimed to seamlessly integrate educational elements into the gameplay and not ruin the fun in the process.
 
 My role involved creating the initial prototype for the game and subsequently developing the majority of core gameplay features in the resulting product. The most challenging part was setting up characters' rigs and multi-layered animators, supporting different state combinations and utilizing procedural IK animations.
 

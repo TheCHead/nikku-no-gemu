@@ -30,8 +30,8 @@ paginate = 5
 
 [languages]
   [languages.en.params]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
+    title = "nikku no gemu"
+    subtitle = "nikku no gemu"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
