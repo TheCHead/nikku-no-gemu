@@ -5,10 +5,10 @@ draft = false
 categories = ['Projects']
 tags = ['unity', 'csharp']
 description = "Jesting little game made in 48 hours at my first Game Jam."
-cover = 'img/gamejam/eve_0.png'
+cover = 'img/gamejam/eve_0s.png'
 +++
 
-{{< figure src="img/gamejam/eve_1.png" alt="Super Eden Jumper" position="center" style="border-radius: 8px;" caption="Climb the Tree of Knowledge as Eve, to bite the Serpent's butt off!" captionPosition="center" >}}
+{{< figure src="img/gamejam/eve_1s.png" alt="Super Eden Jumper" position="center" style="border-radius: 8px;" caption="Climb the Tree of Knowledge as Eve, to bite the Serpent's butt off!" captionPosition="center" >}}
 
  ...The theme of my first ever Game Jam was "Heaven" and somehow this is what we came up with. Despite a slow start in the first 24 hours grappling with ideas, we managed to complete it in the next 24. Our trio team consisted of a game designer, an artist, and myself as a developer.
 
@@ -20,4 +20,4 @@ Though a bit stressful, witnessing a compact yet complete game being conceptuali
 
 Here's a [link to the game](https://kuper.itch.io/super-eve-jumper), if you'd like to check it out.
 
-{{< figure src="img/gamejam/eve_2.png" alt="Super Eden Jumper" position="center" style="border-radius: 8px;" >}}
+{{< figure src="img/gamejam/eve_2s.png" alt="Super Eden Jumper" position="center" style="border-radius: 8px;" >}}

@@ -1,14 +1,14 @@
 +++
-title = 'George And Apple Pie'
+title = 'George & Apple Pie'
 date = 2023-12-21T14:35:01+04:00
 draft = false
 categories = ['Projects']
 tags = ['unity', 'devtools']
 description = "Narrative adventure, currently in development."
-cover = 'img/george/georgecontroller.gif'
+cover = 'img/george/georgetitlem.png'
 +++
 
-Over the course of 2023, I participated in my colleague's indie project, George And Apple Pie. This is a story driven game with a heavy focus on hand-drawn animations.
+Over the course of 2023, I participated in my colleague's indie project, George & Apple Pie. This is a story driven game with a heavy focus on hand-drawn animations.
 
 Some notable features that I've developed include:
 - Responsive 2D character controller, packed with a rather complex animation system, jump input buffers, invincibility frames, pickups, and all the good stuff

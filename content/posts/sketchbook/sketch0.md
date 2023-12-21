@@ -4,8 +4,11 @@ date = 2023-12-19T12:32:53+04:00
 draft = false
 categories = ['Sketchbook']
 tags = ['sketch']
+description = "No mistakes, happy accidents allowed only."
 cover = 'img/sketchbook/lighthouse_fin.png'
 +++
+
+The Sketchbook section is here to motivate myself to draw more. Hopefully, it'll help.
 
 {{< figure src="img/sketchbook/lighthouse_fin.png" alt="Lighthouse" position="center" style="border-radius: 8px;" >}}
 
