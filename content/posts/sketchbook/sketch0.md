@@ -1,5 +1,5 @@
 +++
-title = 'Random Sketches Vol. 0'
+title = 'Random Sketches Vol.0'
 date = 2023-12-19T12:32:53+04:00
 draft = false
 categories = ['Sketchbook']

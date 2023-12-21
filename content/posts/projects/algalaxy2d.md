@@ -1,9 +1,9 @@
 +++
 title = 'Al Galaxy 2D'
-date = 2023-12-21T11:19:14+04:00
+date = 2023-12-21T15:00:00+04:00
 draft = false
 categories = ['Projects']
-tags = ['skyeng', 'unity', 'ecs', 'di']
+tags = ['skyeng', 'unity', 'ecs']
 description = "Flagship reimagined."
 cover = 'img/skyeng/galaxy2d.gif'
 +++
