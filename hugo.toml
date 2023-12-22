@@ -26,6 +26,8 @@ paginate = 5
   # Show full page content in RSS feed items
   #(default is Description or Summary metadata in the front matter)
   # rssFullText = true
+  
+  
 
 [services]
   [services.googleAnalytics]
