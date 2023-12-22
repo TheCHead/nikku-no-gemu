@@ -54,6 +54,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "nikku no gēmu"
+      logoTextJP = "ニックのゲーム"
       logoHomeLink = "https://www.nikkunogemu.com/"
     # or
     #
