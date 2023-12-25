@@ -10,7 +10,7 @@ cover = 'img/skyeng/galaxy2d.gif'
 
 In early 2023 we made a decision to transition [Al Galaxy]({{< ref "algalaxy" >}}) from 3D to 2D, so we could speed up our production pipeline and improve scalability of the project, as well as learn from mistakes and shortcomings of the initial game.
 
-The Galaxy reimagination would differ in features, details and appearance, so it would become a full on remake, or rather reimagining, of the original.
+The Galaxy reimagination would differ in features, details and appearance, so it would become a full on remake of the original.
 
 {{< youtube etwK6IaRnG0 >}}
 

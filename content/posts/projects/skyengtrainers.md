@@ -25,7 +25,7 @@ There were numerous games built for Math and English by our team. Below are exam
 {{< figure src="img/skyeng/dino.gif" alt="Dino" position="center" style="border-radius: 8px;" >}}
 
 
-In addition to crafting homework mini-games, we ventured into experimenting with various game formats, to validate or challenge certain hypotheses we had at that time. Here's a glimpse:
+In addition to crafting homework mini-games, we ventured into experimenting with various game formats, to validate or challenge certain hypotheses we had at that time. Here's just a glimpse:
 
 {{< figure src="img/skyeng/droplet.gif" alt="Droplet state" position="center" style="border-radius: 8px;" >}}
 

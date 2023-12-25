@@ -8,7 +8,7 @@ description = "Demo for EdCrunch 2022, where we inject some fun into initially b
 cover = 'img/skyeng/edcrunch.gif'
 +++
 
-In late 2022, I participated in the EdCrunch conference, Europe's largest conference on innovation in education. My role involved developing a prototype to complement our presentation on integrating games into education and assisting my colleague in delivering it to the audience.
+In late 2022, I participated in the EdCrunch conference, Europe's largest event on innovation in education. My role involved developing a prototype to complement our presentation on integrating games into education and assisting my colleague in delivering it to the audience.
 
 Given our work's focus on children, our discussion revolved around enhancing the educational process to be both engaging and enjoyable without causing harm. 
 
