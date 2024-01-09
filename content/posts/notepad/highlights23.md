@@ -19,7 +19,7 @@ The list is ordered chronologically, with no game being better or worse than the
 {{< figure src="img/highlights23/video_revachol.jpeg" alt="Video Revachol" position="center" style="border-radius: 8px;"  >}}
 Disco Elysium is about so many things, so sophisticatedly crafted, a work of unprecedented vision. A murder mystery, a political and social drama, an introspection of Revachol's troubled history, and a spiritual journey, all through the lens of a complex human mind. It's the latter aspect that I've connected with the most, confronting sometimes vague but still powerful emotions, be it intuition or nostalgia, self-pity or guilt, channeling through personified traits like Shivers, Inland Empire, and others.
 
-At the core of the narrative is a broken man, a cop struggling with a burden of existence, in a barely sustainable state. It's up to the player to shape him up, but regardless, behind an off-puting grimace on a mustached face (better keep it that way, btw), there's so much thought, life, and pain, so intricately written, it's impossible not to care.
+At the core of the narrative is a broken man, a cop struggling with the burden of existence, in a barely sustainable state. It's up to the player to shape him up, but regardless, behind an off-putting grimace on a mustached face (better keep it that way, btw), there's so much thought, life, and pain, so intricately written, that it's impossible not to care.
 
 Disco Elysium is beautifully presented, with an artstyle inspired by Rembrandt and Kanevsky, accompanied by an unforgettable soundtrack by British Sea Power. Here's a [list](https://store.steampowered.com/news/app/632470/view/3334287173823797600) of major inspirations for the game from the developers.
 
