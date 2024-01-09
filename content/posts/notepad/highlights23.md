@@ -17,9 +17,11 @@ The list is ordered chronologically, with no game being better or worse than the
 ## Top 5
 ### 1. Disco Elysium
 {{< figure src="img/highlights23/video_revachol.jpeg" alt="Video Revachol" position="center" style="border-radius: 8px;"  >}}
-Disco Elysium is about so many things, so sophisticatedly crafted, a work of unprecedented vision. A murder mystery, a political and social drama, an introspection of Revachol's troubled history, and a spiritual journey, all through the lens of a complex human mind. It's the latter aspect that I've connected with the most, confronting sometimes vague but still powerful emotions, be it intuition or nostalgia, channeling through personified traits like Shivers, Inland Empire, and others. The story of the protagonist is deeply personal, and the ever-present internal dialogue makes it much more relatable.
+Disco Elysium is about so many things, so sophisticatedly crafted, a work of unprecedented vision. A murder mystery, a political and social drama, an introspection of Revachol's troubled history, and a spiritual journey, all through the lens of a complex human mind. It's the latter aspect that I've connected with the most, confronting sometimes vague but still powerful emotions, be it intuition or nostalgia, self-pity or guilt, channeling through personified traits like Shivers, Inland Empire, and others.
 
-The game is beautifully presented, with an artstyle inspired by Rembrandt and Kanevsky, accompanied by an unforgettable soundtrack by British Sea Power. Here's a [list](https://store.steampowered.com/news/app/632470/view/3334287173823797600) of major inspirations for the game from the developers.
+At the core of the narrative is a broken man, a cop struggling with a burden of existence, in a barely sustainable state. It's up to the player to shape him up, but regardless, behind an off-puting grimace on a mustached face (better keep it that way, btw), there's so much thought, life, and pain, so intricately written, it's impossible not to care.
+
+Disco Elysium is beautifully presented, with an artstyle inspired by Rembrandt and Kanevsky, accompanied by an unforgettable soundtrack by British Sea Power. Here's a [list](https://store.steampowered.com/news/app/632470/view/3334287173823797600) of major inspirations for the game from the developers.
 
 All in all, Disco Elysium is truly special. It's really hard to find the right words to do it justice. Please, give it a try.
 
@@ -116,7 +118,7 @@ I've only played Dual Destinies on 3DS before, enjoyed it immensely, and decided
 {{< figure src="img/highlights23/sekiro_wolf.jpeg" alt="Sekiro" position="center" style="border-radius: 8px;"  >}}
 After completing Demon's Souls Remake, there was a hunger for more Souls in my life, so I decided to go through FromSoftware titles that I'd missed up to this point. The first one to conquer was Sekiro: Shadows Die Twice.
 
-Sekiro's parry/stance system is sick, one of the best feeling fighting systems out there, complemented by awesome boss encounters. It took some time to click, but when it did, I transcended to a higher life form, speaking the Parry language of Gods. The feudal Japan setting was also fascinating to explore.
+Sekiro's parry/stance system is sick, one of the best feeling fighting systems out there, complemented by awesome boss encounters (ape prank will always be remembered). It took some time to click, but when it did, I transcended to a higher life form, speaking the Parry language of Gods. The feudal Japan setting was also fascinating to explore.
 
 Although I really enjoyed the combat, I think FromSoft went a bit too hard on difficulty. The game embodies the "git gud" mentality and demands perfection in execution. Such an approach is rewarding, for sure, but it may also feel like a grind against the wall. Bosses in Sekiro have huge move sets, chaining procedural combos, and there's a proper way to react to each attack. Every encounter becomes a massive memory and reaction check, as you have to know each move by heart to react properly. As a result, instead of the euphoria of defeating a powerful foe, I often felt exhaustion and relief that the fight was finally over.
 
