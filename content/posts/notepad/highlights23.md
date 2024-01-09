@@ -86,7 +86,7 @@ Inscryption is one hell of a ride, blurring the very concept of what a video gam
 ## Honourable mentions
 #### Shin Megami Tensei V
 {{< figure src="img/highlights23/smtv.jpeg" alt="SMT V" position="center" style="border-radius: 8px;"  >}}
-As always, fantastic designs by Kazuma Kaneko and Masayuki Doi, amazing combat system, and an absolute killer soundtrack—one of the best in the series. Shin Megami Tensei V incorporates free-roam exploration of vast open maps, and excels at that, I believe. However, the story and characters didn't grab me as much as SMT IV did, but that one is hard to beat.
+As always, fantastic designs by Kazuma Kaneko and Masayuki Doi, amazing combat system, and an absolute killer soundtrack—one of the best in the series. Shin Megami Tensei V incorporates free-roam exploration of vast open maps for the first time in the franchise, and excels at that, I believe. However, the story and characters didn't grab me as much as SMT IV did, but that one is hard to beat.
 
 &nbsp;
 
@@ -94,7 +94,7 @@ As always, fantastic designs by Kazuma Kaneko and Masayuki Doi, amazing combat s
 {{< figure src="img/highlights23/outer_wilds.jpeg" alt="Outer Wilds" position="center" style="border-radius: 8px;"  >}}
 I can see how some may consider Outer Wilds one of the best games ever made. Its approach to space exploration and storytelling is truly unique, trapping you in a time loop to witness the sun's explosion at the end of each cycle. For some reason, it was difficult for me to become fully invested in the game's narrative, which is crucial to fully enjoy the experience, but that's a personal thing.
 
-However, one strong emotion stood out during the experience—when I finally escaped the loop. The sun's explosion is still there to happen, but this time is the last time you see it. After so many deaths, it's strange to realize the next one will be the last. All that remains is to gaze into space and await the inevitable.
+However, one strong emotion stood out—when I finally escaped the loop. The sun's explosion is still there to happen, but this time is the last time you see it. After so many deaths, it's strange to realize the next one will be the last. All that remains is to gaze into space and await the inevitable.
 
 &nbsp;
 
@@ -108,19 +108,19 @@ Well, the game is a bit of a mess, but such a charming one. The pacing isn't gre
 
 #### Phoenix Wright: Ace Attorney
 {{< figure src="img/highlights23/phoenix_wright.jpeg" alt="Phoenix Wright" position="center" style="border-radius: 8px;"  >}}
-I've only played Dual Destinies on 3DS before, enjoyed it immensely, and decided to start the series from the beginning. Phoenix Wright is such a good time all the way, quickly becoming one of my favorite series after playing through just two titles. I'm sure to play through the other games in the series whenever I need to keep my spirit up.
+I've only played Dual Destinies on 3DS before, enjoyed it immensely, and decided to start the series from the beginning. Phoenix Wright is a good time all the way, quickly becoming one of my favorite series after playing through just two titles. I'm sure to play through the other games in the series whenever I need to keep my spirit up.
 
 &nbsp;
 
 #### Sekiro: Shadows Die Twice
 {{< figure src="img/highlights23/sekiro_wolf.jpeg" alt="Sekiro" position="center" style="border-radius: 8px;"  >}}
-After completing Demon's Souls Remake, there was a hunger for more Souls in my life, so I decided to go through FromSoftware titles that I'd missed up to this point. The first one was Sekiro: Shadows Die Twice.
+After completing Demon's Souls Remake, there was a hunger for more Souls in my life, so I decided to go through FromSoftware titles that I'd missed up to this point. The first one to conquer was Sekiro: Shadows Die Twice.
 
-Sekiro's parry/stance system is sick, one of the best feeling fighting systems out there, complemented by awesome boss encounters. It took some time to click, but when it did, I transcended to a higher life form, speaking the Parry language. The feudal Japan setting was also fascinating to explore.
+Sekiro's parry/stance system is sick, one of the best feeling fighting systems out there, complemented by awesome boss encounters. It took some time to click, but when it did, I transcended to a higher life form, speaking the Parry language of Gods. The feudal Japan setting was also fascinating to explore.
 
-Although I really enjoyed the combat, I think FromSoft went a bit too hard on difficulty. The game embodies the "git gud" mentality and demands perfection in execution. Such an approach is rewarding, for sure, but it may also feel like a grind against the wall. Bosses in Sekiro have huge move sets, chaining procedural combos, and there's a proper way to react to each attack. Each encounter becomes a massive memory and reaction check, as you have to know each move by heart to react properly. As a result, instead of the euphoria of defeating a powerful foe, I often felt exhaustion and relief that the fight was finally over.
+Although I really enjoyed the combat, I think FromSoft went a bit too hard on difficulty. The game embodies the "git gud" mentality and demands perfection in execution. Such an approach is rewarding, for sure, but it may also feel like a grind against the wall. Bosses in Sekiro have huge move sets, chaining procedural combos, and there's a proper way to react to each attack. Every encounter becomes a massive memory and reaction check, as you have to know each move by heart to react properly. As a result, instead of the euphoria of defeating a powerful foe, I often felt exhaustion and relief that the fight was finally over.
 
-Subsequent playthroughs of the game might actually be much more fun, as you've built enough muscle memory in the first one. Hopefully, I will return to Sekiro one day and see for myself.
+Subsequent playthroughs of the game might actually be much more fun, after building enough muscle memory in the first one. Hopefully, I will return to Sekiro one day and see for myself.
 
 &nbsp;
 
@@ -138,4 +138,4 @@ By the end, the game won me over. I got really invested in its lore, and after s
 {{< figure src="img/highlights23/bloodborne.jpeg" alt="A hoonter must hoont" position="center" style="border-radius: 8px;"  >}}
 Playing through numerous Souls titles, for the last game of the year, I ventured back in time to replay one of my all-time favorites, Bloodborne. I played it back in 2016, achieved my platinum within 3 playthroughs, and never returned until now.
 
-This time it was an appreciation playthrough, reading every item description and exploring every corner of the game world. After completion, I'm reminded once again why it's considered the best in the series and one of the best games ever made, standing as Hidetaka Miyazaki's magnum opus at the moment. Don't miss out on Bloodborne. Bloodborne is cool.
+This time I attempted an appreciation playthrough, reading every item description and exploring every corner of the game world. After completion, I'm reminded once again why it's considered the best in the series and one of the best games ever made, standing as Hidetaka Miyazaki's magnum opus at the moment. Don't miss out on Bloodborne. Bloodborne is cool.
