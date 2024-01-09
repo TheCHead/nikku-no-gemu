@@ -10,7 +10,7 @@ Watching the bleak state of the world and feeling a desperate need for escapism,
 
 Below is a list of five games that left a deep impression on me in 2023, along with a few honorable mentions.
 
-The list is ordered chronologically, with no game being better or worse than the others; each game hits differently, but none missed the mark. It's worth noting that none of these games actually came out in 2023, as I rarely play games on release due to a large backlog.
+The list is ordered chronologically, with no game being better or worse than the others; each one hits differently, but none missed the mark. It's worth noting that none of these games actually came out in 2023, as I rarely play games on release due to a large backlog.
 
 &nbsp;
 
