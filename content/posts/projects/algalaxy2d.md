@@ -20,6 +20,6 @@ As of the project architecture, we chose an Entity Component System framework. I
 
 {{< figure src="img/skyeng/galaxy2d.gif" alt="Sandbox" position="center" style="border-radius: 8px;"  >}}
 
-The game is also built as a platform for us to measure the impact that games can make on educational process and cognitive abilities of children, and we've already gained some valuable insight on the topic.
+Additionally, we use Al Galaxy as a platform to measure the impact that games can make on educational process and cognitive abilities of children, and we've already gained some valuable insight on the topic.
 
 Al Galaxy is now available on both [iOS](https://apps.apple.com/ru/app/al-galaxy/id1626464795) and [Android](https://play.google.com/store/apps/details?id=com.Skyeng.AlGalaxy&hl=en_US&pli=1) platforms. Since its release, the player base has been steadily expanding, accompanied by positive retention and playtime metrics.
