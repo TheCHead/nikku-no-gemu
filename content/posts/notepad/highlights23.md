@@ -3,6 +3,7 @@ title = '2023 Highlights'
 date = 2024-01-08T16:33:07+04:00
 draft = false
 description = "Personal top 5 gaming experiences of the last year."
+tags = ['notes']
 cover = 'img/highlights23/returnal_astronaut.jpeg'
 +++
 
@@ -118,7 +119,7 @@ I've only played Dual Destinies on 3DS before, enjoyed it immensely, and decided
 {{< figure src="img/highlights23/sekiro_wolf.jpeg" alt="Sekiro" position="center" style="border-radius: 8px;"  >}}
 After completing Demon's Souls Remake, there was a hunger for more Souls in my life, so I decided to go through FromSoftware titles that I'd missed up to this point. The first one to conquer was Sekiro: Shadows Die Twice.
 
-Sekiro's parry/stance system is sick, one of the best feeling fighting systems out there, complemented by awesome boss encounters (ape prank will always be remembered). It took some time to click, but when it did, I transcended to a higher life form, speaking the Parry language of Gods. The feudal Japan setting was also fascinating to explore.
+Sekiro's parry/posture system is sick, one of the best feeling fighting systems out there, complemented by awesome boss encounters (ape prank will always be remembered). It took some time to click, but when it did, I transcended to a higher life form, speaking the Parry language of Gods. The feudal Japan setting was also fascinating to explore.
 
 Although I really enjoyed the combat, I think FromSoft went a bit too hard on difficulty. The game embodies the "git gud" mentality and demands perfection in execution. Such an approach is rewarding, for sure, but it may also feel like a grind against the wall. Bosses in Sekiro have huge move sets, chaining procedural combos, and there's a proper way to react to each attack. Every encounter becomes a massive memory and reaction check, as you have to know each move by heart to react properly. As a result, instead of the euphoria of defeating a powerful foe, I often felt exhaustion and relief that the fight was finally over.
 
