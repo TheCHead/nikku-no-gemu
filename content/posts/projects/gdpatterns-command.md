@@ -38,9 +38,9 @@ public class InputHandler : MonoBehaviour
 }
 ```
 
-However, this setup hardwires the key input to a specific resulting action, which becomes problematic if we intend to swap button actions mid-game or allow players to remap controls.
+This setup hardwires the key input to a specific resulting action, which becomes problematic if we intend to swap button actions mid-game or allow players to remap controls.
 
-To support that, we need to replace hardcoded input with an abstraction—an object we could easily swap with an analogue in the future.
+To support that, we need to replace hardcoded button action with an abstraction—an object we could easily swap with an analogue in the future.
 
 First, let's define an interface for a generic command with a single method.
 
@@ -88,7 +88,7 @@ public class SpecialCommand : ICommand
 
 Now, within the InputHandler class, we define a list of commands for each button, and then assign an instance of a specific action to it.
 
-By doing so, we eliminate tight coupling between input and action, enabling us to dynamically reassign key-action mappings.
+By doing so, we eliminate tight coupling between input and action, enabling us to dynamically reassign button mappings.
 
 ```csharp
 private ICommand _jCommand;
@@ -115,7 +115,7 @@ void Update()
 
 But there's still room for improvement. This approach implies that each command already has everything it needs to do its job, which is rarely the case.
 
-For example, to execute an action, we need an actor. Therefore, we can pass it as a parameter in the Execute() function.
+For example, to execute an action, we need an actor. Therefore, we can pass it as a parameter in the Execute() method.
 
 ```csharp
 public interface ICommand
