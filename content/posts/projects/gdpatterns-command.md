@@ -170,9 +170,9 @@ Here, we introduce a stack to keep track of all performed actions. This time, we
     {
         // create new instance of a command
         var commandType = command.GetType();
-        var newCommand = Activator.CreateInstance(commandType);
+        var newCommand = (ICommand)Activator.CreateInstance(commandType);
         // execute command
-        command.Execute(actor);
+        newCommand.Execute(actor);
         // push newly created command to stack
         _commandStack.Push((ICommand)newCommand);
     }
