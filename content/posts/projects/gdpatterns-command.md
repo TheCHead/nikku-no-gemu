@@ -34,7 +34,7 @@ public class InputHandler : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.I)) Shoot();
     }
 
-    // action emplementations below
+    // action implementations below
 }
 ```
 
