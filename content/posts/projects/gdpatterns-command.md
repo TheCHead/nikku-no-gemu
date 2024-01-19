@@ -174,7 +174,7 @@ Here, we introduce a stack to keep track of all performed actions. This time, we
         // execute command
         newCommand.Execute(actor);
         // push newly created command to stack
-        _commandStack.Push((ICommand)newCommand);
+        _commandStack.Push(newCommand);
     }
 
 ```
