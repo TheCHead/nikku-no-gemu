@@ -3,6 +3,7 @@ title = '2023 Highlights'
 date = 2024-01-08T16:33:07+04:00
 draft = false
 description = "Personal top 5 gaming experiences of the last year."
+categories = ['Notepad']
 tags = ['notes']
 cover = 'img/highlights23/returnal_astronaut.jpeg'
 +++

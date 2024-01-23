@@ -14,7 +14,7 @@ paginate = 5
   defaultTheme = "light"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 2
 
   # Show reading time in minutes for posts
   showReadingTime = false
@@ -66,6 +66,7 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
+        weight = -2
       [[languages.en.menu.main]]
         identifier = "sketchbook"
         name = "Sketchbook"
@@ -74,4 +75,13 @@ paginate = 5
         identifier = "projects"
         name = "Projects"
         url = "/categories/projects"
+        weight = -1
+      [[languages.en.menu.main]]
+        identifier = "knowledge"
+        name = "Knowledge"
+        url = "/categories/knowledge"
+      [[languages.en.menu.main]]
+        identifier = "Notepad"
+        name = "Notepad"
+        url = "/categories/notepad"
         

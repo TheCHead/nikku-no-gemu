@@ -2,8 +2,8 @@
 title = 'GD Patterns: Command'
 date = 2024-01-17T18:08:06+04:00
 draft = false
-categories = ['Projects']
-description = "Game Programming Patterns revisited."
+categories = ['Knowledge']
+description = "Game Programming Patterns Revisited."
 tags = ['unity', 'csharp', 'architecture']
 +++
 
@@ -86,7 +86,7 @@ public class SpecialCommand : ICommand
 }
 ```
 
-Now, within the InputHandler class, we define a list of commands for each button, and then assign an instance of a specific action to it.
+Now, within the `InputHandler` class, we define a list of commands for each button, and then assign an instance of a specific action to it.
 
 By doing so, we eliminate tight coupling between input and action, enabling us to dynamically reassign button mappings.
 
@@ -115,7 +115,7 @@ void Update()
 
 But there's still room for improvement. This approach implies that each command already has everything it needs to do its job, which is rarely the case.
 
-For example, to execute an action, we need an actor. Therefore, we can pass it as a parameter in the Execute() method.
+For example, to execute an action, we need an actor. Therefore, we can pass it as a parameter in the `Execute()` method.
 
 ```csharp
 public interface ICommand
@@ -135,7 +135,7 @@ void Update()
 }
 ```
 
-As for the Actor itself, we make it an implementation of the IActor interface, encapsulating input behaviour within the actor class. This approach allows for distinct input reactions for different actor classes.
+As for the `Actor` itself, we make it an implementation of the `IActor` interface, encapsulating input behaviour within the actor class. This approach allows for distinct input reactions for different actor classes.
 
 ```csharp
 public interface IActor
@@ -147,7 +147,7 @@ public interface IActor
 }
 ```
 
-We could push the idea further to make each actor subscribe to any command emitter (like the InputHandler class in the example above). This would enable players to control multiple actors simultaneously, allow actors' actions to be influenced by other sources, or even permit an arbitrary AI engine to dispatch commands to mobs in a similar manner.
+We could push the idea further to make each actor subscribe to any command emitter (like the `InputHandler` class in the example above). This would enable players to control multiple actors simultaneously, allow actors' actions to be influenced by other sources, or even permit an arbitrary AI engine to dispatch commands to mobs in a similar manner.
 
 
 ### Command Stack
@@ -181,7 +181,7 @@ Here, we introduce a stack to keep track of all performed actions. This time, we
 
 Now, we have a stack of actions performed by an actor, which we can use, for instance, in a playback mode. Alternatively, we could use a Queue instead of a Stack to buffer actions and execute them sequentially.
 
-This structure allows us to easily implement the undo functionality. For this we need to extend the ICommand interface with an additional method, Undo(). Note that the ICommand interface is now also extended with an IActor property, enabling the Undo operation to be performed on the same actor.
+This structure allows us to easily implement the undo functionality. For this we need to extend the `ICommand` interface with an additional method, `Undo()`. Note that the `ICommand` interface is now also extended with an `IActor` property, enabling the Undo operation to be performed on the same actor.
 
 ```csharp
 public interface ICommand
@@ -194,7 +194,7 @@ public interface ICommand
 }
 ```
 
-All that is left to do is to detect the undo input, pop the last action from the stack, and call the Undo() method.
+All that is left to do is to detect the undo input, pop the last action from the stack, and call the `Undo()` method.
 
 ```csharp
 void Update()
