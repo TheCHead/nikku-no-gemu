@@ -83,7 +83,7 @@ In case flyweights are created dynamically and requested on demand, it would be 
 
 Now, thousands of blocks in our game share common data, significantly improving memory usage. However, the GPU load remains unchanged—instanced rendering is here to help, and it is itself an implementation of the Flyweight pattern.
 
-[Instancing](https://en.wikipedia.org/wiki/Geometry_instancing) is a technique that allows rendering multiple copies of a single mesh within a single draw call, supported natively by graphic card vendors.
+[Instancing](https://en.wikipedia.org/wiki/Geometry_instancing) is a technique that allows rendering multiple copies of a mesh within a single draw call, supported natively by graphic card vendors.
 
 In the Unity environment, this feature is known as GPU Instancing. To use it, you have to apply shaders with _Enable GPU Instancing_ option, or edit your own shaders to support the feature. Detailed instructions and restrictions can be found in the Unity [documentation]((https://docs.unity3d.com/540/Documentation/Manual/GPUInstancing.html)).
 
