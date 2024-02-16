@@ -13,13 +13,13 @@ A continuation of the _GD Patterns_ series, following the _Game Programming Patt
 
 [Observer](https://gameprogrammingpatterns.com/observer.html), being a behavioral pattern, is one of the most popular and well-known design patterns from the Gang of Four. It has a native implementation in C# using the `event` keyword and in the Unity API using the `UnityEvent` class.
 
-The Observer pattern is built around a subscription model, allowing the observed subject to notify its subscribers by dispatching events when certain criteria are met. Upon receiving the notification, subscribers (or observers) react accordingly, separating the event-handling logic from the subject."
+The Observer pattern is built around a subscription model, allowing the observed subject to notify its subscribers by dispatching events when certain criteria are met. Upon receiving the notification, subscribers (or observers) react accordingly, separating the event-handling logic from the subject.
 
 ### Example usage
 
 So, the pattern consists of two entities: the observer and the subject being observed. Let's break down a basic subscription model.
 
-First, let's start with the `Observer` class. At this stage, it only contains a method to be called upon notification by the subject.
+First, let's start with the `Observer` class. At this stage, it only contains a single `OnNotify()` method to be called upon notification by the subject.
 
 ```csharp
 public class Observer
@@ -67,8 +67,8 @@ public class Subject
 }
 ```
 
-This setup can lead to a situation where the `Observer` is destroyed, but the `Subject` still keeps a reference to it. This situation can result in a `NullReferenceException` when invoking the event, which is big no-no.
-The way to deal with this is to unsubscribe the observer from the subject right in the destructor. In the example below, I've also added a constructor to demonstrate subscribing and unsubscribing more clearly.
+This setup can lead to a situation where the `Observer` is destroyed, but the `Subject` still keeps a reference to it. This situation can result in a `NullReferenceException` when invoking the event, which is a big no-no.
+The way to deal with this is to unsubscribe the observer from the subject right in the observer's destructor. In the example below, I've also added a constructor to demonstrate subscribing and unsubscribing more clearly.
 
 ```csharp
 public class Observer
