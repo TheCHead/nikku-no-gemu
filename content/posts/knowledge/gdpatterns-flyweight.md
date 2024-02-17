@@ -13,7 +13,7 @@ A continuation of the _GD Patterns_ series, following the _Game Programming Patt
 
 [Flyweight](https://gameprogrammingpatterns.com/flyweight.html) pattern is all about efficiency. It's essential when a game relies on large quantities of similar objects in a scene. The core idea is straightforward—reduce the memory footprint by sharing common data.
 
-### Example usage
+### Example
 
 Consider we have an original idea for a survival game, where the entire world consists of voxel blocks with different properties. The primary focus of the game is mining these blocks and crafting stuff from them.
 

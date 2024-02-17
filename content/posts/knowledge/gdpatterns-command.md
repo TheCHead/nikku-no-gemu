@@ -19,7 +19,7 @@ Robert gives the following tagline for the [Command](https://gameprogrammingpatt
 
 "_Reify_" means "_make real_" or, more casually, "_thingify_". Basically, a _Command_ is an action wrapped in an object; a verb turned into a noun.
 
-### Example usage
+### Example
 
 Consider that we have an input handler, detecting player input and translating it into an action.
 

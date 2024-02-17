@@ -15,7 +15,7 @@ A continuation of the _GD Patterns_ series, following the _Game Programming Patt
 
 The Observer pattern is built around a subscription model, allowing the observed subject to notify its subscribers by dispatching events when certain criteria are met. Upon receiving the notification, subscribers (or observers) react accordingly, separating the event-handling logic from the subject.
 
-### Example usage
+### Example
 
 So, the pattern consists of two entities: the observer and the subject being observed. Let's break down a basic subscription model.
 
@@ -67,7 +67,7 @@ public class Subject
 }
 ```
 
-This setup can lead to a situation where the `Observer` is destroyed, but the `Subject` still keeps a reference to it. This situation can result in a `NullReferenceException` when invoking the event, which is a big no-no.
+This setup can lead to a situation where the `Observer` is destroyed, but the `Subject` still keeps a reference to it. This condition can result in a `NullReferenceException` when invoking the event, which is a big no-no.
 The way to deal with this is to unsubscribe the observer from the subject right in the observer's destructor. In the example below, I've also added a constructor to demonstrate subscribing and unsubscribing more clearly.
 
 ```csharp
@@ -107,13 +107,13 @@ We could make it more versatile by using interfaces for both the observer and su
 First, we need to define a `delegate`, specifying its return type (`void`), name (`OnNotifyHandler`) and the list of arguments in the brackets (just a `Subject` class reference to keep it simple).
 
 ```csharp
-public class Subject : MonoBehaviour
+public class Subject
 {
     public delegate void OnNotifyHandler(Subject subject);
 }
 ```
 
-Then we replace `Observer` references with `OnNotifyHandler` references everywhere within `Subject` class.
+Then we replace `Observer` references with `OnNotifyHandler` references everywhere within the `Subject` class.
 
 ```csharp
 public class Subject
@@ -143,7 +143,7 @@ public class Subject
 }
 ```
 
-At last, we also need to modify the Observer a bit. 
+At last, we also need to modify the `Observer` class a bit. 
 
 ```csharp
 public class Observer
@@ -170,13 +170,13 @@ public class Observer
 
 As seen in the constructor, we can now pass `OnNotify()` method of the `Observer` to the `Subject` directly. Now, the observer of any type can subscribe to the subject by providing a method of the right signature.
 
-### Observer in C# and Unity
+### Observers in C# and Unity
 
 All of the above was examined to gain a better understanding of the Observer pattern's underlying mechanisms, but you most probably won't ever be writing it all yourself, as there are baked-in implementations of it pretty much everywhere.
 
 Firstly, C# has its own implementation of the Observer pattern in the form of the `event` keyword, which simplifies things (and improves performance).
 
-Let's see how the `Subject` would change when using `event`."
+Let's see how the `Subject` would change when using `event`.
 
 ```csharp
 public class Subject
@@ -212,7 +212,7 @@ public class Observer
 
     public void OnNotify(Subject subject)
     {
-        Debug.Log($"Notification {subject.name} received.");
+        Debug.Log($"Notification from {subject.name} received.");
     }
 }
 ```
@@ -247,14 +247,16 @@ public class Observer
 
     public void OnNotify(Subject subject)
     {
-        Debug.Log($"Notification {subject.name} received.");
+        Debug.Log($"Notification from {subject.name} received.");
     }
 }
 ```
 
-Not much has changed:`event Action<Subject>` has turned into `UnityEvent<Subject>` in the `Subject`, and the subscription syntax has been altered in the `Observer` class.
+Not much has changed here:`event Action<Subject>` has turned into `UnityEvent<Subject>` in the `Subject` class, and the subscription syntax has been altered in the `Observer` class.
 
-So, the two primary options of utilizing the Observer pattern within Unity environment are `event` and `UnityEvent`. But when should we choose one over the other?
+### C# event vs UnityEvent
+
+So, the two primary options of utilizing the Observer pattern within Unity environment are C# `event` keyword and `UnityEvent` class. But when should we choose one over the other?
 
 `UnityEvent` supports serialization in the Unity editor, allowing subscribers to be added or removed from outside the code. This makes it a useful tool for non-developers.
 
