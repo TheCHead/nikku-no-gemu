@@ -263,3 +263,7 @@ So, the two primary options of utilizing the Observer pattern within Unity envir
 {{< figure src="img/knowledge/unityevent.png" alt="Enable GPU Instancing" position="center" style="border-radius: 8px;"  >}}
 
 However, in other cases, there's no visible benefit to using `UnityEvent` over C# `event`, as Unity's implementation is at least 2 times slower and generates more garbage over time. For a detailed examination of the topic, please refer to the [article](https://www.jacksondunstan.com/articles/3335) by Jackson Dunstan.
+
+### Conclusion
+
+The Observer pattern is dead simple, lightning fast and reliable. At its core, it's just an object and a bunch of listeners waiting for something to happen to it. There are more advanced techniques built on top of it, like Reactive Programming (see [UniRx](https://github.com/neuecc/UniRx)) and the [Event Queue](https://gameprogrammingpatterns.com/event-queue.html) pattern, which I hope to cover here as well. As of today, the Observer is everywhere and won't go anywhere anytime soon.
