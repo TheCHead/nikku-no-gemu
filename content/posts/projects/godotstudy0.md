@@ -8,7 +8,7 @@ tags = ['godot', 'gdscript']
 cover = 'img/godot/godot_survivors_7.gif'
 +++
 
-After hearing a lot of positive buzz around the 4.0 ver. release, and especially after witnessing Unity's extensive promotional campaign last year, I couldn't resist checking Godot out.
+After hearing a lot of positive buzz around the 4.0 version release and witnessing Unity's extensive promotional campaign last year, I couldn't resist checking Godot out.
 
 This year, I set out to master the fundamentals of Godot, diving into documentation and applying my knowledge to practice. Below is the progress of my studies so far. Of course I've just barely scratched the surface of what Godot has to offer, but it's just the beginning - Godot is cool and I'm hooked.
 
@@ -242,7 +242,7 @@ func _on_lvl_up_canvas_upgrade_selected(upgrade):
 	player.apply_upgrade(upgrade)
 ```
 
-The final step is to apply the upgrade effect in the `player.gd` script. There's little grace in how I do it, but I decided to not overcomplicate things. A simple switch statement (`match` keyword in Godot) will do.
+The final step is to apply the upgrade effect in the `player.gd` script. There's little grace in how I do it, but I decided to not overcomplicate things. A simple switch statement (`match` keyword in GDScript) will do.
 
 ```py
 func apply_upgrade(upgrade:Upgrade):
@@ -460,7 +460,7 @@ func _update_nav_target():
 
 ```
 
-And with this last fix, the game feels smooth and easilly maintains 60fps, it's a win!
+And with this last fix, the game feels smooth and easily maintains 60fps. It's a win!
 
 {{< figure src="img/godot/godot_survivors_7.gif" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
@@ -468,7 +468,7 @@ The project is now complete, and you can find the repository by the [link](https
 
 ### Conclusion
 
-I didn't expect to like Godot as much as I did while making this little game. The engine turned out to be super fast and lightweight, with tools that are intuitive and easy to use. Between the brilliant Input Map, human-readable scene files, built-in script reference, signals, quick node access with the `%` sign (which is performant too!), and simple quality-of-life features like the Timer node, Godot is a treat to use.
+I didn't expect to enjoy Godot as much as I did while making this little game. The engine turned out to be super fast and lightweight, with tools that are intuitive and easy to use. Between the brilliant Input Map, human-readable scene files, built-in script reference, signals, quick node access with the `%` sign (which is performant too!), and simple quality-of-life features like the Timer node, Godot is a treat to use.
 
 I couldn't be more excited to join the Godot community today, when the engine is receiving the attention it absolutely deserves. There's more that ever materials and knowledge being produced for it every day and I'll definitely continue learning Godot and using it for my personal projects in the future. It also just feels great to have such a powerful new tool in my kit!
 
