@@ -8,9 +8,9 @@ tags = ['godot', 'gdscript']
 cover = 'img/godot/godot_survivors_7.gif'
 +++
 
-After hearing a lot of praise surrounding the release of version 4.0 and especially after witnessing Unity's extensive promotional campaign last year, I couldn't resist checking Godot out.
+After hearing a lot of positive buzz around the 4.0 ver. release, and especially after witnessing Unity's extensive promotional campaign last year, I couldn't resist checking Godot out.
 
-This year I have dedicated myself to mastering the fundamentals of Godot, diving into documentation and applying my knowledge to practice. Below is the progress of my studies so far. Of course I've just barely scratched the surface of what Godot has to offer, but it's just the beginning - Godot is cool and I'm hooked.
+This year, I set out to master the fundamentals of Godot, diving into documentation and applying my knowledge to practice. Below is the progress of my studies so far. Of course I've just barely scratched the surface of what Godot has to offer, but it's just the beginning - Godot is cool and I'm hooked.
 
 ### First prototype
 
@@ -18,7 +18,7 @@ I began as I usually do, looking into some YouTube tutorials to grasp the basics
 
 {{< figure src="img/godot/godot_study_0.gif" alt="First prototype" position="center" style="border-radius: 8px;"  >}}
 
-The project was super barebones and there's not much to say. However, it did give me a good sense of the engine's interface and the general way of doing things in this neighbourhood.
+The first project was super barebones and there's not much to say. However, it did give me a good sense of the engine's interface and the general way of doing things in this neighbourhood.
 
 ### Moving on
 
@@ -28,15 +28,19 @@ By the end of the course, I had a basic prototype: an animated character that ca
 
 {{< figure src="img/godot/godot_survivors_0.gif" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
-Nothing too fancy, but this was the moment when I felt like I was really starting to get the hang of it. Having plenty of Unity experience, many concepts were easy to grasp, but still it takes some time to click. The editor itself is all familiar stuff: here's your Scene window, File browser, Inspector etc. But many other things differ: figuring out how to organize the scene object tree, navigating it effectively, learning to compose nodes into scenes correctly, and understanding how to use GDScript efficiently with the built-in script editor.
+Nothing too fancy, but this was the moment when I felt like I was really starting to get the hang of it. Having plenty of Unity experience, many concepts were easy to grasp, but still it takes some time to click. 
+
+The editor itself is all familiar stuff: here's your Scene window, File browser, Inspector etc. But many other things differ: figuring out how to organize the scene object tree, navigating it effectively, learning to compose nodes into scenes correctly, and understanding how to use GDScript efficiently with the built-in script editor.
 
 After finishing this mini course, I made a list of extra features I wanted to add to the game. Then, I dove into the Godot documentation and GDScript reference, in preparation to expand the base scope of the project.
 
 ### Player progression
 
-The first thing to implement was a progression system in form of getting experience points from defeated enemies to level up player's character.
+The first thing to implement was a progression system in form of getting experience points from defeated enemies to level up the player's character.
 
-To gain experience, enemy need to drop it first. Below I check if enemy's HP falls below 0, spawn death particles and instantiate an XP drop. The `xp_drop.tscn` itself is just a `StaticBody2D` node with `CollisionShape2D` and `Sprite2D` child nodes. The base node is assigned to a Node Group named "exp" to identify the drop among other collisions.
+To gain experience, enemy needs to drop it first. To do this, I check if the enemy's HP falls below 0, spawn death particles and instantiate an XP drop scene. 
+
+The `xp_drop.tscn` itself is just a `StaticBody2D` node with `CollisionShape2D` and `Sprite2D` child nodes. The base node is assigned to a Node Group named "exp" to identify the drop among other collisions.
 
 ```py
 func take_damage(damage):
@@ -125,11 +129,11 @@ For this new feature, I started by mapping out the upgrade UI.
 
 {{< figure src="img/godot/godot_survivors_1.png" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
-I focused more on the structure than the visuals, so the menu is straightforward but functional. The dialog window is built with a mix of vertical and horizontal container nodes, labels, and buttons, representing player upgrades.
+I focused more on the structure than the visuals, so the menu is straightforward but functional. The dialog window is built with a mix of vertical and horizontal box container nodes, labels, and buttons, representing player upgrades.
 
-Next, I needed a data model to represent a single upgrade. I wanted to make it easy to create and configure upgrades to keep the system scalable. I figured I can achieve this by creating a new resource type called `Upgrade`. In Godot, a `Resource` is anything that can be loaded or saved from disk; it's essentially a data container. Textures, scripts, meshes, animations—all of these are resources.
+Next, I needed a data model to represent a single upgrade. I wanted to make it easy to create and configure upgrades to keep the system scalable. I figured I can achieve this by creating a new `Upgrade` resource type. In Godot, a `Resource` is anything that can be loaded or saved from disk; it's essentially a data container. Textures, scripts, meshes, animations—all of these are resources.
 
-To create the `Upgrade` resource, I created a new script, defined a `class_name` for it to be accessible from the codebase, inherited it from the `Resource` type, and added a set of properties that can be configured from the editor.
+To create an `Upgrade` resource, I wrote a new script, defined a `class_name` within it to be accessible from the codebase, inherited it from the `Resource` type, and added a set of properties that can be configured from the editor.
 
 ```py
 class_name Upgrade
@@ -148,7 +152,7 @@ Now, we can create `Upgrade` asset files via FileSystem->Create->Resource and se
 
 {{< figure src="img/godot/godot_survivors_2.png" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
-I created a resource file for every upgrade type in the game and put them all in the "upgrades" folder. These new files have `.tres` extension.
+I created a resource file for every upgrade type in the game and grouped them together in the "upgrades" folder. These new files have `.tres` extension.
 
 {{< figure src="img/godot/godot_survivors_3.png" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
@@ -156,7 +160,7 @@ As a bit of exposure to the Godot's AssetLib, I've also discovered a really nice
 
 {{< figure src="img/godot/godot_survivors_4.png" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
-Now, to populate a level up dialog window, we create a new script `lvl_up_menu.gd` and attach it to our `LvlUpCanvas` node.
+Now, to populate a level-up dialog window, we create a new script `lvl_up_menu.gd` and attach it to our `LvlUpCanvas` node.
 
 ```py
 extends CanvasLayer
@@ -218,11 +222,11 @@ func init(upgrade:Upgrade):
 	self.text = upgrade.name
 ```
 
-At this point, we have a level up dialog with a selection of upgrades. However, we haven't called it from anywhere or processed the selected upgrade. For simplicity, I'm handling this in the main `survivors_game.gd` script. 
+At this point, we have a level-up dialog with a selection of upgrades. However, we haven't yet called it from anywhere or processed the selected upgrade. For simplicity, I'm handling this in the main `survivors_game.gd` script. 
 
 I added two additional methods:
-In `_on_player_lvl_up()` method, I pause the game, open the level up dialog, and make enemies spawn a bit faster.
-In `_on_lvl_up_canvas_upgrade_selected()` method, I hide the level up dialog, unpause the game, and pass the selected upgrade to the player to decide what to do next.
+- In `_on_player_lvl_up()` method, I pause the game, open the level-up dialog, and make enemies spawn a bit faster.
+- In `_on_lvl_up_canvas_upgrade_selected()` method, I hide the level up dialog, unpause the game, and pass the selected upgrade to the player to decide what to do next.
 
 ```py
 func _on_player_lvl_up():
@@ -238,7 +242,7 @@ func _on_lvl_up_canvas_upgrade_selected(upgrade):
 	player.apply_upgrade(upgrade)
 ```
 
-The final step is to apply the upgrade effect in the `player.gd` script. There's little grace in how I do it, but I decided to not overcomplicate things. A simple switch statement (`match` in Godot) will do.
+The final step is to apply the upgrade effect in the `player.gd` script. There's little grace in how I do it, but I decided to not overcomplicate things. A simple switch statement (`match` keyword in Godot) will do.
 
 ```py
 func apply_upgrade(upgrade:Upgrade):
@@ -261,7 +265,7 @@ func apply_upgrade(upgrade:Upgrade):
 	pass
 ```
 
-And with it, the level up system is complete! Enemies drop XP and player can collect it to level up. Then player can select an upgrade, which will be applied to the character, who becomes stronger with every level, while mobs spawn faster.
+And with it, the level-up system is complete! Enemies drop XP and the player can collect it to level up. Then the player can select an upgrade, which will be applied to the character, who becomes stronger with every level, while mobs spawn faster.
 
 {{< figure src="img/godot/godot_survivors_5.gif" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
@@ -367,7 +371,7 @@ To fill the map, I've imported "Simple Tileset" from AssetLib, which is basic bu
 
 ### Pathfinding
 
-The last thing I wanted to implement was enemy pathfinding. At this point, enemies were just rushing towards the player just to become stuck between pine trees, which is not good. To address this, I took the time to learn about 2D Navigation in Godot.
+The last thing I wanted to implement was enemy pathfinding. So far, enemies were just rushing towards the player just to become stuck between pine trees, which was too exploitable. To address this, I took the time to learn about 2D Navigation in Godot.
 
 Basically, we need two things for navigation to work: a `NavigationRegion2D` to define an area to navigate and a `NavigationAgent2D` to handle the movement. 
 
@@ -390,7 +394,7 @@ func _config_nav_region():
 
 The `_config_nav_region()` method is called right after map generation. It builds a new navigation polygon equal to the map size, configures the agent radius, and bakes the area. This process takes into account all colliders and trees on the map to carve them out from the navigational area.
 
-All that's left to do is to configure our navigational agents. For this, we add a `NavigationAgent2D` node to our slimes and modify `mob_slime.gd` slightly. Below, we update the agent's target position with the player's position every frame.
+All that's left to do is to configure our navigation agents. For this, we add a `NavigationAgent2D` node to our slimes and modify `mob_slime.gd` slightly. Below, we update the agent's target position with the player's position every frame.
 
 ```py
 func _physics_process(delta):
@@ -404,9 +408,9 @@ func _update_nav_target():
 	navigation_agent_2d.target_position = player.global_position
 ```
 
-It works great, but a tiny problem comes up - performance has dropped so much, the game is unplayable now. This was caused by two main issues: the navigational area had too many polygons, leading to excessive waypoints between enemies and the player, and all enemies were recalculating their paths every frame.
+It works great, but a tiny problem comes up - performance has dropped so much, that the game is unplayable now. This was caused by two main issues: the navigational area had too many polygons, leading to excessive waypoint calculation between enemies and the player, and all enemies were recalculating their paths every frame.
 
-The first problem was caused by the size of the tiles - they were too small and there were too many of them. Each vertex of a tile turns into a vertex on a navigation area. I solved this issue by taking out tile collisions from the equation entirely, as they were not requied to built the area at all.
+The first problem was caused by the size of the tiles - they were too small and there were too many of them. Each vertex of a tile turns into a vertex on a navigation area. I solved this issue by disabling tile collisions entirely, as they were not requied to built the area at all in my case.
 
 To tackle the second problem I needed to reduce the number of path calculations per frame. For starters, we can make our mobs recalculate paths once per 30 frames, which is not really noticeable by the player, but saves a lot of CPU cycles.
 
@@ -424,9 +428,9 @@ func _update_nav_target():
 	navigation_agent_2d.target_position = player.global_position
 ```
 
-It helps, but our mobs are spawn at random time, which still allows for multiple path calculations per frame. To counter this, I took the frame counter from the mob to the mob spawner to syncronize its value for every new mob. Now, all mobs recalculate their path to the target at the exact same frame. 
+It helps, but our mobs are spawn at random time, which still allows for multiple path calculations per frame. To fix this, I took the frame counter from the mob up to the mob spawner to then synchronize the counter's value for every new mob as it spawns. Now, all mobs recalculate their path to the target at the exact same frame, as their frame counters are in sync. 
 
-Then we can add a frame delay to each mob based on how many mobs have been spawned.
+Finally, we can add a frame delay to each mob based on how many mobs have been spawned. I use a `fmod()` function for that, so that the first 30 mobs have sequential delays ranging from 0 to 30 frames, and the same will be done for the next 30 mobs and so on.
 
 ```py
 var _nav_update_frame_counter : int = 0
@@ -456,7 +460,7 @@ func _update_nav_target():
 
 ```
 
-And with this last fix, path calculations are distributed between frames and the game easilly maintains 60fps, it's a win!
+And with this last fix, the game feels smooth and easilly maintains 60fps, it's a win!
 
 {{< figure src="img/godot/godot_survivors_7.gif" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
@@ -464,7 +468,7 @@ And with this last fix, path calculations are distributed between frames and the
 
 I didn't expect to like Godot as much as I did while making this little game. The engine turned out to be super fast and lightweight, with tools that are intuitive and easy to use. Between the brilliant Input Map, human-readable scene files, built-in script reference, signals, quick node access with the `%` sign (which is performant too!), and simple quality-of-life features like the Timer node, Godot is a treat to use.
 
-I couldn't be more excited to join the Godot community today, when the engine is receiving the attention it absolutely deserves. There's more materials and knowledge being produced for it every day than ever and I'll definitely continue learning Godot and using it for my personal projects in the future. It also just feels great to have such a powerful new tool in my kit!
+I couldn't be more excited to join the Godot community today, when the engine is receiving the attention it absolutely deserves. There's more that ever materials and knowledge being produced for it every day and I'll definitely continue learning Godot and using it for my personal projects in the future. It also just feels great to have such a powerful new tool in my kit!
 
 
 
