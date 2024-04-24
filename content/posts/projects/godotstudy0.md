@@ -464,6 +464,8 @@ And with this last fix, the game feels smooth and easilly maintains 60fps, it's 
 
 {{< figure src="img/godot/godot_survivors_7.gif" alt="Godot Survivors" position="center" style="border-radius: 8px;"  >}}
 
+The project is now complete, and you can find the repository by the [link](https://github.com/TheCHead/godot-survivors).
+
 ### Conclusion
 
 I didn't expect to like Godot as much as I did while making this little game. The engine turned out to be super fast and lightweight, with tools that are intuitive and easy to use. Between the brilliant Input Map, human-readable scene files, built-in script reference, signals, quick node access with the `%` sign (which is performant too!), and simple quality-of-life features like the Timer node, Godot is a treat to use.
