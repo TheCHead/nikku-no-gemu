@@ -12,6 +12,6 @@ I'm a game developer and this is a space for me to share my experience, projects
 {{< figure src="img/me0.JPG" position="center" style="border-radius: 8px;" >}}
 
 
-[My Resumé]({{< static "/docs/nikitadmitrievCV.pdf" >}})  
+[My Resumé]({{< static "/docs/ndm-cv-1124.pdf" >}})  
 [My LinkedIn](https://www.linkedin.com/in/dmitriev-nikita-tch/)  
 [My Github](https://github.com/TheCHead)
