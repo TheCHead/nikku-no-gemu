@@ -90,7 +90,7 @@ Inscryption is one hell of a ride, blurring the very concept of what a video gam
 ## Honourable mentions
 #### Shin Megami Tensei V
 {{< figure src="img/highlights23/smtv.jpeg" alt="SMT V" position="center" style="border-radius: 8px;"  >}}
-As always, fantastic designs by Kazuma Kaneko and Masayuki Doi, amazing combat system, and an absolute killer soundtrack—one of the best in the series. Shin Megami Tensei V incorporates free-roam exploration of vast open maps for the first time in the franchise, and excels at that, I believe. However, the story and characters didn't grab me as much as SMT IV did, but that one is hard to beat.
+As always, fantastic designs by Kazuma Kaneko and Masayuki Doi, amazing combat system, and an absolute killer soundtrack - one of the best in the series. Shin Megami Tensei V incorporates free-roam exploration of vast open maps for the first time in the franchise, and excels at that, I believe. However, the story and characters didn't grab me as much as SMT IV did, but that one is hard to beat.
 
 &nbsp;
 
@@ -98,7 +98,7 @@ As always, fantastic designs by Kazuma Kaneko and Masayuki Doi, amazing combat s
 {{< figure src="img/highlights23/outer_wilds.jpeg" alt="Outer Wilds" position="center" style="border-radius: 8px;"  >}}
 I can see how some may consider Outer Wilds one of the best games ever made. Its approach to space exploration and storytelling is truly unique, trapping you in a time loop to witness the sun's explosion at the end of each cycle. For some reason, it was difficult for me to become fully invested in the game's narrative, which is crucial to fully enjoy the experience, but that's a personal thing.
 
-However, one strong emotion stood out—when I finally escaped the loop. The sun's explosion is still there to happen, but this time is the last time you see it. After so many deaths, it's strange to realize the next one will be the last. All that remains is to gaze into space and await the inevitable.
+However, one strong emotion stood out, when I finally escaped the loop. The sun's explosion is still there to happen, but this time is the last time you see it. After so many deaths, it's strange to realize the next one will be the last.
 
 &nbsp;
 
@@ -106,7 +106,7 @@ However, one strong emotion stood out—when I finally escaped the loop. The sun
 {{< figure src="img/highlights23/evilwithin.jpeg" alt="Evil Within" position="center" style="border-radius: 8px;"  >}}
 I'm a huge survival horror fan, and Shinji Mikami is practically synonymous with the genre as the father of Resident Evil series, which I adore. After departing from Capcom and engaging in some freelance work for other studios, Mikami-san founded Tango Gameworks, with The Evil Within being their debut title, released in 2014.
 
-Well, the game is a bit of a mess, but such a charming one. The pacing isn't great, characters are poorly realized, and the gameplay is somewhat clunky, but there's so much going on—so many wild scenarios and mind-bending sequences—that it was hard to leave unimpressed. It may not be my favorite survival horror title, but it's certainly one to remember.
+Well, the game is a bit of a mess, but such a charming one. The pacing isn't great, characters are poorly realized, and the gameplay is somewhat clunky, but there's so much going on - so many wild scenarios and mind-bending sequences - that it was hard to leave unimpressed. It may not be my favorite survival horror title, but it's certainly one to remember.
 
 &nbsp;
 
