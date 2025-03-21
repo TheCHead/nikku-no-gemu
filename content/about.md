@@ -12,6 +12,6 @@ I'm a game developer and here I share my experience, projects, and gush about vi
 {{< figure src="img/me0.JPG" position="center" style="border-radius: 8px;" >}}
 
 
-[My Resumé]({{< static "/docs/ndmitriev_cv_0225.pdf" >}})  
+[My Resumé]({{< static "/docs/nikita_dmitriev_cv_0425.pdf" >}})  
 [My LinkedIn](https://www.linkedin.com/in/dmitriev-nikita-tch/)  
 [My Github](https://github.com/TheCHead)
